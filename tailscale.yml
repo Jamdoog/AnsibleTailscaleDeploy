@@ -1,0 +1,6 @@
+---
+- name: Deploy Tailscale
+  hosts: all
+  become: true
+  roles:
+    - artis3n.ansible-role-tailscale
