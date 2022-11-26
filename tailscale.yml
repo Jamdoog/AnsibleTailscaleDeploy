@@ -3,4 +3,4 @@
   hosts: all
   become: true
   roles:
-    - artis3n.ansible-role-tailscale
+    - artis3n.tailscale
